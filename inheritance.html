@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Inheritance</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        body {
+            background-image:url('http://wallpapercave.com/wp/InfkkQ7.png');
+            background-size:cover;
+        }
+        table {
+            width:50%;
+            margin:auto;
+            font-size:1.2em;
+            background-color:rgba(0,0,0,.3);
+            box-shadow:15px 15px 15px rgba(7, 58, 6, 0.40);
+            font-family:Calibri;
+            display:block;
+            margin-top:5%;
+            margin-bottom:5%;
+            padding:2%
+        }
+
+        thead {
+            font-size:2em;
+            text-shadow:2px 2px 2px #ffd800
+        }
+
+        .subject {
+            font-size:1.5em;
+        }
+
+        .hint {
+            color:rgba(255,255,255,0);
+            background:rgba(34,34,34,.5);
+            padding:2%;
+            text-align:center;
+            font-size:2em;
+        }
+
+            .hint:active{
+                color:rgba(255,255,255,1);
+            }
+
+    </style>
+</head>
+<body>
+    <a href="index.html" style="font-size:2em">Back To Home</a>
+    <div class="tableWrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <!--Challenge Name-->
+                        Inheritance with Python
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="subject">
+                        Write a program using Python that creates a class called "Structure". The "Structure" class should have attributes that store the type of structure and the square footage of the structure. Also, this class should have a method that prints out the information about the structure (Call this method "info"). Next, create a class called "House". The "House" class should inherit the Structure class and have 2 new attributes that store the number of bedrooms and the number of bathrooms. The "House" class should override the "info" method and print out all of the attributes that correspond to the "House" class. Lastly, create a class called Barn that inherits the Structure class and has a new attribute that stores the number of stables in the barn. The "Barn" class should override the "info" method and print out all the attributes that correspond to the “Barn” class.                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.youtube.com/watch?v=pxbdnrjf-Uc" style="font-size:2em">
+                            Check out this YouTube video on inheritance in Python.
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Run the Following lines of code to test your program: </strong>
+                        <ul>
+                            <li>
+                                >>> h = House(“Split Level”, 1200, 3, 2.5)
+                            </li>
+                            <li>                                
+                                >>> b = Barn(“Farm Barn”, 2000, 8)
+                            </li>
+                            <li>                                
+                                >>> p = Structure(“Pavilion”, 1500)
+                            </li>
+                            <li>                                
+                                >>> structures = [h,b,p]
+                            </li>
+                            <li style="list-style:none;">
+                                <img src="InheritanceExampleSnippet.PNG" alt="Example Picture"/>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

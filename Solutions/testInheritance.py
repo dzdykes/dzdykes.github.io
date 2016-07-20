@@ -1,4 +1,4 @@
-class Structure():
+class Structure:
     def __init__(self, _type, sqfoot):
         self._type = _type
         self.sqfoot = sqfoot

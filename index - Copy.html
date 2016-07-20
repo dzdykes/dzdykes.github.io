@@ -19,14 +19,14 @@
             header sub {
                 font-size:.5em;
             }
-        .main-section {
+        section {
             background-image:url('https://fs01.androidpit.info/userfiles/7142162/image/deals/androidpit-deals-python-programming-boot-camp-deal-hero-1.png');
             background-size:cover;
             min-height:600px;
             padding:1%;
         }
 
-        .sec-section {
+        article {
             width:50%;
             background-color:rgba(4, 0, 0, 0.26);
             margin:auto;
@@ -52,42 +52,24 @@
                 font-size:1.2em;
             }
 
-            a {
+            table td a {
+                padding:5%;
                 color:wheat;
                 text-decoration:none;
-                display:block;
-                border-top:5px solid rgba(0,0,0,0);
             }
-                a :active {
+                table td a :active {
                     text-shadow:2px 2px 2px blue
                 }
 
-                a:hover {
-                    transform:scale(1.2);
-                    margin:auto;
-                    border-top:5px solid rgba(64, 102, 36, 0.44);
+                table td a:hover {
+                    color:black;
+                    background-color:rgba(255, 255, 255, 0.30);
                 }
 
             footer {
                 min-height:50px;
                 background-color:white;
             }
-
-            .link-div {
-                width:30%;
-                padding:1.5%;
-                position:relative;
-                margin:auto;
-                float:left;
-                text-align:center;
-                color:white;
-            }
-
-                .link-div img {
-                    display:block;
-                    width:95%;
-                    margin:auto;
-                }
     </style>
 </head>
 <body>
@@ -97,20 +79,12 @@
             These are simple Python Challenges meant for those learning the language. 
         </sub>
     </header>
-    <section class="main-section">
-        <article class="sec-section">
-            <div class="link-div">
-                <a href="decode.html"><h3>Decoding Fun</h3><img src="images/decode.png" alt="decode image" /></a>
-            </div>
-            <div class="link-div">
-                <a href="inheritance.html"><h3>Inheritance Fun</h3><img src="images/inheritance.png" alt="inheritance image" /></a>
-            </div>
-            <div class="link-div">
-                <a href="gcdlcm.html"><h3>GCD and LCM Fun</h3><img src="images/gcd.png" alt="gcd lcm image" /></a>
-            </div>
+    <section>
+        <article>
             <table>
                 <tr>
                     <td>
+                        <a href="decode.html">Decoding Fun </a>
                     </td>
                     <td>
                         <a href="https://github.com/dzdykes/dzdykes.github.io/blob/master/Solutions/decodeFun.py" target="_blank">Solution</a>
